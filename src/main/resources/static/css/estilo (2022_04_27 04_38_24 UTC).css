@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+title{
+text-align: center;
+}
+button{
+	border-bottom: #246355;
+}
+body{
+
+	font-family: Arial;
+	width: 900px;
+	margin: 30 auto;
+}
+table{
+	margin:auto;
+	background-color: white;
+	text-align: left;
+	border: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+h6{
+	font-family: Arial;
+	color:black;
+	text-align: center;
+	font-size: 13px;
+}
+
+th, td{
+border: solid 1px black;
+padding: 20px;
+}
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #246355;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: #ddd;
+
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}

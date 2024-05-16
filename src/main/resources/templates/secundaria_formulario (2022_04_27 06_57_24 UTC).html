@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" th:href="@{/css1/bootstrap.min.css}">
+    </head>
+    <body>
+        <header id="encabezado">
+        AGREGAR RESULTADO 
+        </header>
+        <form id="seccion">
+        <h1>Resulltados elecciones 2022</h1>
+ 
+            <div class="mb-3">
+                <label for="exampleInputPasword3" class="form-label">Candidato: </label>
+                <select class="form-control" id="exampleInputPasword3">
+                    <option value="0">Candidato</option>
+                    <option value="1">Hernandéz</option>
+                    <option value="2">Petro</option>
+                    <option value="3">Fajardo</option>
+                    <option value="4">Galán</option>
+                </select>
+                <div id="emailHelp" class="form-text">Seleccione un Candidato</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPasword2" class="form-label">Región: </label>
+                <select class="form-control" id="exampleInputPassword2">
+                    <option value="0">Región</option>
+                    <option value="1">Caribe</option>
+                    <option value="2">Pacífico</option>
+                    <option value="3">Amazonía</option>
+                    <option value="4">Orinoquía</option>
+                    <option value="5">Andina</option>
+                    <option value="6">Insular</option>
+                </select>
+                <div id="emailHelp" class="form-text">Seleccione una Región</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Resultado: </label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Digite el Resultado obtenido">
+            </div>
+  
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </p>
+</body>
+</html>

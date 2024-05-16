@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <title>Resultados</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" th:href="@{/css1/bootstrap.min.css}">
+	
+    </head>
+    <body>
+        
+        <header id="encabezado">
+        RESULTADOS POR REGIÓN
+        </header>
+        
+        <section id="tabla">
+        <h1> </h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Regiones</th>
+                    <th scope="col">Petro</th>
+                    <th scope="col">Fajardo</th>
+                    <th scope="col">Galán</th>
+                    <th scope="col">Hernandez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Caribe</th>
+                    <td>11%</td>
+                    <td>32%</td>
+                    <td>14.5%</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Pacífico</th>
+                    <td>10%</td>
+                    <td>24%</td>
+                    <td>20%</td>
+                    <td>20.5%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Orinoquía</th>
+                    <td>15%</td>
+                    <td>30%</td>
+                    <td>16%</td>
+                    <td>19%<td>
+                </tr>
+                <tr>
+                    <th scope="row">Amazonía</th>
+                    <td>13%</td>
+                    <td>22%</td>
+                    <td>16%</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Andina</th>
+                    <td>17%</td>
+                    <td>27%</td>
+                    <td>19%</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Insular</th>
+                    <td>13%</td>
+                    <td>23%</td>
+                    <td>18%</td>
+                    <td>21%</td>
+                </tr> 
+            </tbody>
+        </table>
+</body>
+</html>

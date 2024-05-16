@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <!-- <link rel="stylesheet" th:href="@{/css/style_singUp.css}"> -->
+    <meta charset="UTF-8">
+    <title>Votaciones</title>
+</head>
+
+<body>
+    <table>
+		<thead>
+			<th>Identificación</th>
+			<th>Nombres</th>
+			<th>Apellidos</th>
+			<th>Correo</th>
+			<th>Movil</th>
+			<th>Dirección de residencia</th>
+			<th>Municipio de votación</th>
+		</thead>
+		<tr th:object="${data}">
+			<td>
+				<h6 th:text="${data.REGIdentifica}"></h6>
+			</td>
+			<td>
+				<h6 th:text="${data.REGNombres}">
+			</td>
+			<td>
+				<h6 th:text="${data.REGApellidos}">
+			</td>
+			<td>
+				<h6 th:text="${data.REGCorreo}">
+			</td>
+			<td>
+				<h6 th:text="${data.REGMovil}">
+			</td>
+			<td>
+				<h6 th:text="${data.REGDireccion}">
+			</td>
+			<td>
+				<h6 th:text="${data.REGMunicipio}">
+			</td>
+		</tr>
+	</table>
+</body>
